@@ -73,8 +73,8 @@ I am writing to express my interest in the AI/ML Engineer role at <Company>. ...
 [Detailed self-introduction and technical qualifications]
 
 Best regards,  
-Tanuj Kaswa  
-Mobile Number: +917385538010
+Your Name  
+Mobile Number: +91xxxxxxxxxx
 ```
 
 ---
