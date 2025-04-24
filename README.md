@@ -1,4 +1,3 @@
-
 # 📬 Automated HR Email Sender from PDF Contacts
 
 This Python script automates the process of extracting HR contact details from a PDF file and sending personalized job application emails with your resume attached.
@@ -20,10 +19,9 @@ This Python script automates the process of extracting HR contact details from a
 
 ```bash
 .
-├── CompanyWise HR contact (1).pdf  # Input PDF file with HR emails
-├── Tanuj_Kaswa_resume.pdf          # Resume to be attached
-├── main.py                         # Main Python script
-└── README.md                       # Documentation (you are here)
+├── CompanyWise HR contact.pdf                 # Input PDF file with HR emails
+├── email_sender.ipynb                         # Main Python script
+└── README.md                                  # Documentation (you are here)
 ```
 
 ---
@@ -124,6 +122,41 @@ Email sent successfully to John Doe at ExampleCorp
 ...
 Email sending complete. Successfully sent 7 out of 7 emails.
 ```
+
+---
+
+## 🔐 How to Get a Gmail App Password
+
+Gmail blocks access to less secure apps, but with **App Passwords**, you can safely use your account with tools like this Python script.
+
+### 📌 Requirements:
+- 2-Step Verification (2FA) **must be enabled** on your Google Account.
+
+### ✅ Steps to Generate an App Password
+
+1. **Go to your Google Account settings:**  
+   [https://myaccount.google.com/](https://myaccount.google.com/)
+
+2. **Click "Security" in the left menu.**
+
+3. Under **"Signing in to Google"** section:  
+   - Enable **2-Step Verification**  
+   - Click **App Passwords**
+
+4. **Verify your login**, if prompted.
+
+5. Under **"Select app"**, choose **"Mail"**.  
+   Under **"Select device"**, choose **"Other (Custom name)"** and enter a name like `HR Email Script`.
+
+6. Click **Generate**.
+
+7. Copy the 16-character password and use it in your script:
+
+   ```python
+   sender_password = "abcd efgh ijkl mnop"  # No spaces in actual script
+   ```
+
+8. **Keep this password safe.** You won’t see it again!
 
 ---
 
