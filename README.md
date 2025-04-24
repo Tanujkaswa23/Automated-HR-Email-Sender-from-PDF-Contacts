@@ -85,7 +85,7 @@ Edit the following variables inside the `main()` function before running:
 
 ```python
 pdf_path = "CompanyWise HR contact (1).pdf"
-resume_path = "Tanuj_Kaswa_resume.pdf"
+resume_path = "your_resume.pdf"
 sender_email = "your_email@gmail.com"
 sender_password = "your_app_specific_password"
 sender_name = "Your Name"
